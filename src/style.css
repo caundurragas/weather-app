@@ -1,0 +1,98 @@
+.container {
+  font-family: "Encode Sans", sans-serif;
+  font-weight: 100;
+  max-width: 500px;
+  background-image: linear-gradient(135deg, #f5f7fa 30%, #ded3f1 100%);
+}
+.topPage {
+  position: relative;
+}
+.search-container {
+  margin-right: 0;
+  display: flex;
+  align-items: right;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.search-container button {
+  width: 30px;
+}
+.TemperatureData {
+  text-align: right;
+}
+#temperatureTitle {
+  font-size: 60px;
+  font-weight: 500;
+  margin-top: 20px;
+  display: inline-block;
+}
+h2 {
+  font-size: 50px;
+  margin-top: 35px;
+}
+.units {
+  font-size: 15px;
+  position: relative;
+  bottom: 30;
+}
+
+h3 {
+  font-weight: 100;
+  margin-top: 15px;
+}
+p.subRealfeel {
+  font-size: 25px;
+  padding-left: 55px;
+}
+
+.TemperatureData {
+  margin-right: 20px;
+  margin-top: 0;
+}
+.maxTemperature {
+  font-size: 1rem;
+  margin-top: -20px;
+  margin-left: 55px;
+}
+.selectionCity {
+  text-align: top;
+  position: relative;
+}
+.selectionCity p {
+  font-size: 20px;
+}
+.weeklyWeather {
+  border: 2px solid grey;
+  padding: 10px;
+  font-weight: 300;
+}
+.weatherIcon {
+  margin-left: 10px;
+  margin-top: 5px;
+  font-size: 30px;
+}
+.grades {
+  margin-left: 10px;
+  margin-top: 8px;
+}
+.realFeelDaily {
+  font-size: 15px;
+  line-height: 1;
+}
+.weeklyWeather p {
+  text-align: right;
+  margin-top: 15px;
+  margin-bottom: 0;
+  text-decoration: underline;
+  font-size: 12px;
+}
+#currentLocation {
+  font-family: "Encode Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  font-size: 15px;
+  margin-left: 400px;
+}
